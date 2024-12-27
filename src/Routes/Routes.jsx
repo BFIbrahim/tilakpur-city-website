@@ -9,6 +9,13 @@ import Service from '../Pages/Services/Service/Service';
 import Pictures from '../Components/Pictures/Pictures';
 import Opinion from '../Components/Opinion/Opinion';
 import Developer from '../Components/Developer/Developer';
+import Diagonostic from '../Pages/Services/Diagonostic/Diagonostic';
+import Doctors from '../Pages/Services/Doctors/Doctors';
+import Blood from '../Pages/Services/Blood/Blood';
+import FireService from '../Pages/Services/FireService/FireService';
+import RentHouse from '../Pages/Services/RentHouse/RentHouse';
+import Courier from '../Pages/Services/Courier/Courier';
+import Shopping from '../Pages/Services/Shopping/Shopping';
 
   export const  router = createBrowserRouter([
     {
@@ -34,6 +41,34 @@ import Developer from '../Components/Developer/Developer';
         {
           path: '/developer',
           element: <Developer></Developer>
+        },
+        {
+          path: '/diagonostic',
+          element: <Diagonostic></Diagonostic>
+        },
+        {
+          path: '/doctors',
+          element:<Doctors></Doctors>
+        },
+        {
+          path: '/blood',
+          element: <Blood></Blood>
+        },
+        {
+          path:'/fireservice',
+          element: <FireService></FireService>
+        },
+        {
+          path: '/renthouse',
+          element: <RentHouse></RentHouse>
+        },
+        {
+          path: '/courier',
+          element: <Courier></Courier>
+        },
+        {
+          path:'/shopping',
+          element: <Shopping></Shopping>
         }
       ]
     },

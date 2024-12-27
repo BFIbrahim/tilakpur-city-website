@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "DoctorName": "Dr. Farhana Ahmed",
+        "Location": "Dhaka Medical College Hospital, Dhaka",
+        "Degree": "MBBS, FCPS (Medicine)",
+        "Speciality": "Internal Medicine Specialist",
+        "Contact": "+8801712345678",
+        "Description": "Dr. Farhana Ahmed is a highly experienced internal medicine specialist known for her empathetic approach and precise diagnosis in treating chronic illnesses."
+    },
+    {
+        "id": 2,
+        "DoctorName": "Dr. Ahmed Hasan",
+        "Location": "Square Hospital, Dhaka",
+        "Degree": "MBBS, MD (Cardiology)",
+        "Speciality": "Cardiologist",
+        "Contact": "+8801723456789",
+        "Description": "Dr. Ahmed Hasan is a leading cardiologist with expertise in treating heart diseases, performing advanced procedures, and offering preventive care."
+    },
+    {
+        "id": 3,
+        "DoctorName": "Dr. Runa Karim",
+        "Location": "Evercare Hospital, Chattogram",
+        "Degree": "MBBS, FCPS (Gynecology)",
+        "Speciality": "Gynecologist",
+        "Contact": "+8801734567890",
+        "Description": "Dr. Runa Karim specializes in women's health, focusing on prenatal care, childbirth, and gynecological surgeries with a patient-first approach."
+    },
+    {
+        "id": 4,
+        "DoctorName": "Dr. Saiful Islam",
+        "Location": "United Hospital, Dhaka",
+        "Degree": "MBBS, MS (Orthopedics)",
+        "Speciality": "Orthopedic Surgeon",
+        "Contact": "+8801745678901",
+        "Description": "Dr. Saiful Islam is a skilled orthopedic surgeon with expertise in joint replacement, fracture treatment, and sports injuries."
+    },
+    {
+        "id": 5,
+        "DoctorName": "Dr. Tasnim Hossain",
+        "Location": "Apollo Hospital, Sylhet",
+        "Degree": "MBBS, MD (Pediatrics)",
+        "Speciality": "Pediatrician",
+        "Contact": "+8801756789012",
+        "Description": "Dr. Tasnim Hossain is a compassionate pediatrician dedicated to providing exceptional care to children, ensuring their healthy growth and development."
+    }
+]
