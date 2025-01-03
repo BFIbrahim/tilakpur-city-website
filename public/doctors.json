@@ -1,47 +1,47 @@
 [
     {
         "id": 1,
-        "DoctorName": "Dr. Farhana Ahmed",
-        "Location": "Dhaka Medical College Hospital, Dhaka",
-        "Degree": "MBBS, FCPS (Medicine)",
-        "Speciality": "Internal Medicine Specialist",
-        "Contact": "+8801712345678",
-        "Description": "Dr. Farhana Ahmed is a highly experienced internal medicine specialist known for her empathetic approach and precise diagnosis in treating chronic illnesses."
+        "DoctorName": "এম.মহিউদ্দিন মাহমুদ (সোহাগ)",
+        "Location": "ডাঃ এম.এ কুদ্দুস স্বাস্থ্য সেবা কেন্দ্র, তিলকপুর নতুন বাজার, আক্কেলপুর, জয়পুরহাট",
+        "Degree": "ডি.এম.এফ",
+        "RegistrationNumber": "৭২৫৬",
+        "Contact": "০১৭১২-৭৩৫৭৫৬/ সিরিয়ালের জন্যঃ  ০১৭১৭-১১৪০৬৫",
+        "cemberTime": "সকাল ০৭ টা হইতে ১০ঃ৩০, বিকাল ৩ঃ৩০ হইতে রাত ০৮ টা পর্যন্ত। (বিদ্রঃ অনেক সকালে অথবা দুপুরের পরেই আসতে চাইলে ফোন করে যেনে নিবেন ডাক্তার সাহেব এসেছে কিনা। কারণ বিভিন্ন বাস্ততার কারণে ডাক্তার সাহেবের আসতে দেরি হতে পারে।)"
     },
     {
         "id": 2,
-        "DoctorName": "Dr. Ahmed Hasan",
-        "Location": "Square Hospital, Dhaka",
-        "Degree": "MBBS, MD (Cardiology)",
-        "Speciality": "Cardiologist",
-        "Contact": "+8801723456789",
-        "Description": "Dr. Ahmed Hasan is a leading cardiologist with expertise in treating heart diseases, performing advanced procedures, and offering preventive care."
+        "DoctorName": "মোহাম্মদ সুমন আলী",
+        "Location": "তিলকপুর পূর্ব বাজার আক্কেলপুর, জয়পুরহাট (TMSS অফিসের সামনে)",
+        "Degree": "ডি.এম.এফ (উপ সহকারী কমিউনিটি মেডিক্যাল অফিসার, উপজেলা স্বাস্থ্য কমপ্লেক্স, আক্কেলপুর, জয়পুরহাট)",
+        "RegistrationNumber": "৫৫১৩",
+        "Contact": "০১৭২৩-২৫২২৪১",
+        "cemberTime": "সকাল ৬টা থেকে সকাল ৭ঃ৩০ মিনিট, বিকাল ৩ টা থেকে রাত ৮টা পর্যন্ত। শুক্রবারঃ সকাল ৮টা থেকে দুপুর ১২ টা পর্যন্ত, বিকাল ৩ টা থেকে রাত ৮টা পর্যন্ত। (বিদ্রঃ অনেক সকালে অথবা দুপুরের পরেই আসতে চাইলে ফোন করে যেনে নিবেন ডাক্তার সাহেব এসেছে কিনা। কারণ বিভিন্ন বাস্ততার কারণে ডাক্তার সাহেবের আসতে দেরি হতে পারে।)"
     },
     {
         "id": 3,
-        "DoctorName": "Dr. Runa Karim",
-        "Location": "Evercare Hospital, Chattogram",
-        "Degree": "MBBS, FCPS (Gynecology)",
-        "Speciality": "Gynecologist",
-        "Contact": "+8801734567890",
-        "Description": "Dr. Runa Karim specializes in women's health, focusing on prenatal care, childbirth, and gynecological surgeries with a patient-first approach."
+        "DoctorName": "মোঃ জাকির হোসেন",
+        "Location": "তিলকপুর নতুন বাজার আক্কেলপুর, জয়পুরহাট - (ধানাহাটি উত্তর দিকে)",
+        "Degree": "আর.এম.পি",
+        "RegistrationNumber": "",
+        "Contact": "০১৭১৬-৭৩২৩২৮",
+        "cemberTime": "সকাল ৮টা থেকে বেলা ১২টা পর্যন্ত, বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত। (বিদ্রঃ অনেক সকালে অথবা দুপুরের পরেই আসতে চাইলে ফোন করে যেনে নিবেন ডাক্তার সাহেব এসেছে কিনা। কারণ বিভিন্ন বাস্ততার কারণে ডাক্তার সাহেবের আসতে দেরি হতে পারে।)"
     },
     {
         "id": 4,
-        "DoctorName": "Dr. Saiful Islam",
-        "Location": "United Hospital, Dhaka",
-        "Degree": "MBBS, MS (Orthopedics)",
-        "Speciality": "Orthopedic Surgeon",
-        "Contact": "+8801745678901",
-        "Description": "Dr. Saiful Islam is a skilled orthopedic surgeon with expertise in joint replacement, fracture treatment, and sports injuries."
+        "DoctorName": "ডাঃ মোঃ রুহুল আমিন",
+        "Location": "বাচ্চু খলিফা মার্কেট, তিলকপুর নতুন বাজার আক্কেলপুর, জয়পুরহাট",
+        "Degree": "ডি.এম.এফ(ঢাকা), এফ.টি(সদর হাঁসপাতাল নওগাঁ)",
+        "RegistrationNumber": "১০৪০১",
+        "Contact": "০১৭৮৪-৪৪৯২২৪",
+        "cemberTime": "সকাল ৮টা হইতে দুপুর ২টা পর্যন্ত, বিকাল ৩টা হইতে রাত ৮টা পর্যন্ত। (বিদ্রঃ অনেক সকালে অথবা দুপুরের পরেই আসতে চাইলে ফোন করে যেনে নিবেন ডাক্তার সাহেব এসেছে কিনা। কারণ বিভিন্ন বাস্ততার কারণে ডাক্তার সাহেবের আসতে দেরি হতে পারে।)"
     },
     {
         "id": 5,
         "DoctorName": "Dr. Tasnim Hossain",
         "Location": "Apollo Hospital, Sylhet",
         "Degree": "MBBS, MD (Pediatrics)",
-        "Speciality": "Pediatrician",
+        "RegistrationNumber": "",
         "Contact": "+8801756789012",
-        "Description": "Dr. Tasnim Hossain is a compassionate pediatrician dedicated to providing exceptional care to children, ensuring their healthy growth and development."
+        "cemberTime": "সকাল ৯ঃ৩০ হইতে বিকাল ৩ঃ৩০ পর্যন্ত। (বিদ্রঃ অনেক সকালে অথবা দুপুরের পরেই আসতে চাইলে ফোন করে যেনে নিবেন ডাক্তার সাহেব এসেছে কিনা। কারণ বিভিন্ন বাস্ততার কারণে ডাক্তার সাহেবের আসতে দেরি হতে পারে।)"
     }
 ]

@@ -1,44 +1,338 @@
 [
-  {
-      "id": 1,
-      "route": "/doctors",
-      "image": "https://i.ibb.co.com/yFJCB7q/doctor-921059.png",
-      "title": "ডাক্তার"
-  },
-  {
-      "id": 2,
-      "route": "/diagonostic",
-      "image": "https://i.ibb.co.com/9c7WCGC/medical-13161661.png",
-      "title": "ডায়াগনস্টিক"
-  },
-  {
-      "id": 3,
-      "route": "/blood",
-      "image": "https://i.ibb.co.com/gdbHVHN/blood-bag-3479335.png",
-      "title": "রক্ত"
-  },
-  {
-      "id": 4,
-      "route": "/fireservice",
-      "image": "https://i.ibb.co.com/LkpD88T/firetruck-7072045.png",
-      "title": "ফায়ার সার্ভিস"
-  },
-  {
-      "id": 5,
-      "route": "/renthouse",
-      "image": "https://i.ibb.co.com/xsLXzFb/office-building-2098316.png",
-      "title": "বাসা ভারা"
-  },
-  {
-      "id": 6,
-      "route": "/courier",
-      "image": "https://i.ibb.co.com/BtsXbYY/delivery-man-3929115.png",
-      "title": "কুরিয়ার"
-  },
-  {
-      "id": 7,
-      "route": "/shopping",
-      "image": "https://i.ibb.co.com/ygS7mTf/online-shopping-3081559.png",
-      "title": "শপিং"
-  }
+    {
+        "id": 1,
+        "route": "/doctors",
+        "image": "https://i.ibb.co.com/yFJCB7q/doctor-921059.png",
+        "title": "ডাক্তার"
+    },
+    {
+        "id": 2,
+        "route": "/dentist",
+        "image": "https://i.ibb.co.com/5jL9FGZ/dentist.png",
+        "title": "দাতের ডাক্তার"
+    },
+    {
+        "id": 3,
+        "route": "/petdoctor",
+        "image": "https://i.ibb.co.com/WzdZ7R1/veterinary.png",
+        "title": "পশু ডাক্তার"
+    },
+    {
+        "id": 4,
+        "route": "/diagonostic",
+        "image": "https://i.ibb.co.com/9c7WCGC/medical-13161661.png",
+        "title": "ডায়াগনস্টিক"
+    },
+    {
+        "id": 5,
+        "route": "/blood",
+        "image": "https://i.ibb.co.com/gdbHVHN/blood-bag-3479335.png",
+        "title": "রক্ত"
+    },
+    {
+        "id": 6,
+        "route": "/farmacy",
+        "image": "https://i.ibb.co.com/Cm8Xxcv/drugs.png",
+        "title": "ঔষধ"
+    },
+    {
+        "id": 7,
+        "route": "/ambulenc",
+        "image": "https://i.ibb.co.com/GQVPYjx/ambulance.png",
+        "title": "এ্যাম্বুলেন্স"
+    },
+    {
+        "id": 8,
+        "route": "/fireservice",
+        "image": "https://i.ibb.co.com/LkpD88T/firetruck-7072045.png",
+        "title": "ফায়ার সার্ভিস"
+    },
+    {
+        "id": 9,
+        "route": "/bank",
+        "image": "https://i.ibb.co.com/RGww7jd/bank.png",
+        "title": "ব্যাংক"
+    },
+    {
+        "id": 10,
+        "route": "/fuel",
+        "image": "https://i.ibb.co.com/j8vmVFF/fuel.png",
+        "title": "পেট্রোল পাম্প"
+    },
+    {
+        "id": 11,
+        "route": "/renthouse",
+        "image": "https://i.ibb.co.com/xsLXzFb/office-building-2098316.png",
+        "title": "বাসা ভারা"
+    },
+    {
+        "id": 12,
+        "route": "/internet",
+        "image": "https://i.ibb.co.com/0h5MXtt/internet.png",
+        "title": "ব্রডব্যান্ড ইন্টারনেট"
+    },
+    {
+        "id": 13,
+        "route": "/school",
+        "image": "https://i.ibb.co.com/HGLSjLG/school.png",
+        "title": "শিক্ষা প্রতিষ্ঠান"
+    },
+    {
+        "id": 13,
+        "route": "/computertraning",
+        "image": "https://i.ibb.co.com/G3yX2B7/elearning.png",
+        "title": "কম্পিউটার প্রশিক্ষণ"
+    },
+    {
+        "id": 14,
+        "route": "/mosque",
+        "image": "https://i.ibb.co.com/sq71s1C/mosque.png",
+        "title": "মসজিদ"
+    },
+    {
+        "id": 15,
+        "route": "/courier",
+        "image": "https://i.ibb.co.com/BtsXbYY/delivery-man-3929115.png",
+        "title": "কুরিয়ার"
+    },
+    {
+        "id": 16,
+        "route": "/shopping",
+        "image": "https://i.ibb.co.com/ygS7mTf/online-shopping-3081559.png",
+        "title": "শপিং"
+    },
+    {
+        "id": 17,
+        "route": "/Bus",
+        "image": "https://i.ibb.co.com/McMkT52/bus-575683.png",
+        "title": "বাস"
+    },
+    {
+        "id": 18,
+        "route": "/restuarent",
+        "image": "https://i.ibb.co.com/d06ywbm/restuarant.png",
+        "title": "রেস্টুরেন্ট"
+    },
+    {
+        "id": 19,
+        "route": "/coffeshop",
+        "image": "https://i.ibb.co.com/hFTq0nT/cafe.png",
+        "title": "কফি শপ"
+    },
+    {
+        "id": 20,
+        "route": "/photography",
+        "image": "https://i.ibb.co.com/r286G0R/tripod.png",
+        "title": "ফটোগ্রাফি"
+    },
+    {
+        "id": 21,
+        "route": "/homedelivery",
+        "image": "https://i.ibb.co.com/qnQcD87/delivery-1.png",
+        "title": "হোম ডেলিভারি"
+    },
+    {
+        "id": 22,
+        "route": "/decoration",
+        "image": "https://i.ibb.co.com/prNcbjT/wedding-arch-1.png",
+        "title": "ডেকোরেশন"
+    },
+    {
+        "id": 23,
+        "route": "/builder",
+        "image": "https://i.ibb.co.com/1dK9MrH/contractor.png",
+        "title": "মিস্ত্রি"
+    },
+    {
+        "id": 24,
+        "route": "/tailor",
+        "image": "https://i.ibb.co.com/YNDXWn5/tailor.png",
+        "title": "দর্জি"
+    },
+    {
+        "id": 24,
+        "route": "/gas",
+        "image": "https://i.ibb.co.com/ZNVfJ6J/gas.png",
+        "title": "গ্যাস"
+    },
+    {
+        "id": 25,
+        "route": "/van",
+        "image": "https://i.ibb.co.com/N35gkPZ/van.png",
+        "title": "ভান/গারি ভারা"
+    },
+    {
+        "id": 26,
+        "route": "/salon",
+        "image": "https://i.ibb.co.com/gThT4yZ/salon.png",
+        "title": "সেলুন"
+    },
+    {
+        "id": 27,
+        "route": "/library",
+        "image": "https://i.ibb.co.com/9rqNV8Q/library.png",
+        "title": "লাইব্রেরী"
+    },
+    {
+        "id": 28,
+        "route": "/tree",
+        "image": "https://i.ibb.co.com/3pyFLg6/plant.png",
+        "title": "গাছ"
+    },
+    {
+        "id": 29,
+        "route": "/cementshop",
+        "image": "https://i.ibb.co.com/wCXjMyR/cement.png",
+        "title": "রড সিমেন্ট এর দোকান"
+    },
+    {
+        "id": 30,
+        "route": "/briks",
+        "image": "https://i.ibb.co.com/hfYtWpL/game.png",
+        "title": "ইট ভাঁটা"
+    },
+    {
+        "id": 31,
+        "route": "/mobileshop",
+        "image": "https://i.ibb.co.com/j3Xjqmw/mobile-shopping.png",
+        "title": "মোবাইল শপ"
+    },
+    {
+        "id": 32,
+        "route": "/gadget",
+        "image": "https://i.ibb.co.com/V9cJ70H/gadgets.png",
+        "title": "গ্যাজেট শপ"
+    },
+    {
+        "id": 33,
+        "route": "/cosmetics",
+        "image": "https://i.ibb.co.com/xSvTLn6/cosmetics.png",
+        "title": "কসমেটিকস"
+    },
+    {
+        "id": 34,
+        "route": "/Jewellery",
+        "image": "https://i.ibb.co.com/TYrkZGm/jewelry-shop.png",
+        "title": "জুয়েলার্স"
+    },
+    {
+        "id": 35,
+        "route": "/computer",
+        "image": "https://i.ibb.co.com/dQ144Xh/laptop.png",
+        "title": "কম্পিউটার শপ"
+    },
+    {
+        "id": 36,
+        "route": "/electronic",
+        "image": "https://i.ibb.co.com/Y0L2V2W/electronic-store.png",
+        "title": "ইলেক্ট্রনিক শপ"
+    },
+    {
+        "id": 37,
+        "route": "/hardware",
+        "image": "https://i.ibb.co.com/g6mHXpv/wrench.png",
+        "title": "হার্ডওয়্যার শপ"
+    },
+    {
+        "id": 37,
+        "route": "/bikemaker",
+        "image": "https://i.ibb.co.com/dmHz5rM/bike.png",
+        "title": "বাইক মেকানিক"
+    },
+    {
+        "id": 37,
+        "route": "/vanmaker",
+        "image": "https://i.ibb.co.com/r0SppN2/repair-1.png",
+        "title": "ভান মেকানিক"
+    },
+    {
+        "id": 37,
+        "route": "/cyclemaker",
+        "image": "https://i.ibb.co.com/bvnNXd6/repair.png",
+        "title": "সাইকেল মেকানিক"
+    },
+    {
+        "id": 37,
+        "route": "/acmaker",
+        "image": "https://i.ibb.co.com/5RD17LD/air-conditioner.png",
+        "title": "এসি মেকানিক"
+    },
+    {
+        "id": 37,
+        "route": "/electrician",
+        "image": "https://i.ibb.co.com/CtTQ0sr/electrician.png",
+        "title": "ইলেক্ট্রিশিয়ান"
+    },
+    {
+        "id": 37,
+        "route": "/computermekar",
+        "image": "https://i.ibb.co.com/9wtXNMQ/troubleshooting.png",
+        "title": "কম্পিউটার রিপেয়ার"
+    },
+    {
+        "id": 37,
+        "route": "/electricmaker",
+        "image": "https://i.ibb.co.com/4t2V2Tn/repair-2.png",
+        "title": "ইলেক্ট্রিক মেকানিক"
+    },
+    {
+        "id": 37,
+        "route": "/stovemaker",
+        "image": "https://i.ibb.co.com/PYFGFXZ/gas-stove.png",
+        "title": "গ্যাসের চুলা মেকানিক"
+    },
+    {
+        "id": 37,
+        "route": "/frezmaker",
+        "image": "https://i.ibb.co.com/BqKGGLM/fridge.png",
+        "title": "ফ্রিজ মেকানিক"
+    },
+    {
+        "id": 38,
+        "route": "/sweets",
+        "image": "https://i.ibb.co.com/pn7WrcN/laddu.png",
+        "title": "মিষ্টান্ন ভাণ্ডার"
+    },
+    {
+        "id": 39,
+        "route": "/curd",
+        "image": "https://i.ibb.co.com/WnwkZLN/curd.png",
+        "title": "দই"
+    },
+    {
+        "id": 40,
+        "route": "/chiken",
+        "image": "https://i.ibb.co.com/BqffHSZ/chicken.png",
+        "title": "পোলট্রি মুরগি"
+    },
+    {
+        "id": 41,
+        "route": "/fruits",
+        "image": "https://i.ibb.co.com/0QQzWPr/fruits.png",
+        "title": "ফলমূল"
+    },
+    {
+        "id": 42,
+        "route": "/bazar",
+        "image": "https://i.ibb.co.com/k4R0cmB/bazar.png",
+        "title": "বাজার"
+    },
+    {
+        "id": 43,
+        "route": "/furniture",
+        "image": "https://i.ibb.co.com/f8nXZDy/furniture.png",
+        "title": "আসবাব পত্র"
+    },
+    {
+        "id": 44,
+        "route": "/miking",
+        "image": "https://i.ibb.co.com/qFLFWyf/megaphone.png",
+        "title": "মাইকিং"
+    },
+    {
+        "id": 45,
+        "route": "/beuty",
+        "image": "https://i.ibb.co.com/rsF1BBy/brush.png",
+        "title": "বিউটি পার্লার"
+    }
 ]

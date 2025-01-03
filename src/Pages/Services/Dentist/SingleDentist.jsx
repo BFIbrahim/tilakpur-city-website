@@ -1,8 +1,9 @@
 import React from 'react';
 
-const SingleDoctors = ({doctor}) => {
-    console.log(doctor)
-    const {DoctorName, Location, Degree, Contact, cemberTime, RegistrationNumber} = doctor
+const SingleDentist = ({ dentist }) => {
+
+    const {DoctorName, Location, Degree, Contact, cemberTime,RegistrationNumber} = dentist
+
     return (
         <div>
             <div className='bg-pink-100 p-5 my-5'>
@@ -17,4 +18,4 @@ const SingleDoctors = ({doctor}) => {
     );
 };
 
-export default SingleDoctors;
+export default SingleDentist;

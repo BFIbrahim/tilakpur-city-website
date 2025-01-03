@@ -16,11 +16,15 @@ import FireService from '../Pages/Services/FireService/FireService';
 import RentHouse from '../Pages/Services/RentHouse/RentHouse';
 import Courier from '../Pages/Services/Courier/Courier';
 import Shopping from '../Pages/Services/Shopping/Shopping';
+import Dentist from '../Pages/Services/Dentist/Dentist';
+import DafaultPage from '../Components/DefaultPage/DafaultPage';
+import Farmacy from '../Pages/Services/Farmacy/Farmacy';
 
   export const  router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement: <DafaultPage></DafaultPage>,
       children:[
         {
           path:"/",
@@ -42,33 +46,41 @@ import Shopping from '../Pages/Services/Shopping/Shopping';
           path: '/developer',
           element: <Developer></Developer>
         },
-        {
-          path: '/diagonostic',
-          element: <Diagonostic></Diagonostic>
-        },
+        // {
+        //   path: '/diagonostic',
+        //   element: <Diagonostic></Diagonostic>
+        // },
         {
           path: '/doctors',
           element:<Doctors></Doctors>
         },
+        // {
+        //   path: '/blood',
+        //   element: <Blood></Blood>
+        // },
+        // {
+        //   path:'/fireservice',
+        //   element: <FireService></FireService>
+        // },
+        // {
+        //   path: '/renthouse',
+        //   element: <RentHouse></RentHouse>
+        // },
+        // {
+        //   path: '/courier',
+        //   element: <Courier></Courier>
+        // },
+        // {
+        //   path:'/shopping',
+        //   element: <Shopping></Shopping>
+        // },
         {
-          path: '/blood',
-          element: <Blood></Blood>
+          path:"/dentist",
+          element: <Dentist></Dentist>
         },
         {
-          path:'/fireservice',
-          element: <FireService></FireService>
-        },
-        {
-          path: '/renthouse',
-          element: <RentHouse></RentHouse>
-        },
-        {
-          path: '/courier',
-          element: <Courier></Courier>
-        },
-        {
-          path:'/shopping',
-          element: <Shopping></Shopping>
+          path:'/farmacy',
+          element: <Farmacy></Farmacy>
         }
       ]
     },
