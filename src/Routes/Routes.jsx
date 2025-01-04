@@ -19,6 +19,7 @@ import Shopping from '../Pages/Services/Shopping/Shopping';
 import Dentist from '../Pages/Services/Dentist/Dentist';
 import DafaultPage from '../Components/DefaultPage/DafaultPage';
 import Farmacy from '../Pages/Services/Farmacy/Farmacy';
+import Restuarant from '../Pages/Services/Restuarannt/Restuarant';
 
   export const  router = createBrowserRouter([
     {
@@ -81,6 +82,10 @@ import Farmacy from '../Pages/Services/Farmacy/Farmacy';
         {
           path:'/farmacy',
           element: <Farmacy></Farmacy>
+        },
+        {
+          path:'/restuarent',
+          element: <Restuarant></Restuarant>
         }
       ]
     },
