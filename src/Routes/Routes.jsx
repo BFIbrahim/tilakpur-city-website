@@ -47,22 +47,22 @@ import Restuarant from '../Pages/Services/Restuarannt/Restuarant';
           path: '/developer',
           element: <Developer></Developer>
         },
-        // {
-        //   path: '/diagonostic',
-        //   element: <Diagonostic></Diagonostic>
-        // },
+        {
+          path: '/diagonostic',
+          element: <Diagonostic></Diagonostic>
+        },
         {
           path: '/doctors',
           element:<Doctors></Doctors>
         },
-        // {
-        //   path: '/blood',
-        //   element: <Blood></Blood>
-        // },
-        // {
-        //   path:'/fireservice',
-        //   element: <FireService></FireService>
-        // },
+        {
+          path: '/blood',
+          element: <Blood></Blood>
+        },
+        {
+          path:'/fireservice',
+          element: <FireService></FireService>
+        },
         // {
         //   path: '/renthouse',
         //   element: <RentHouse></RentHouse>
