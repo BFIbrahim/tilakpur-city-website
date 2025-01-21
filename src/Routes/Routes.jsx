@@ -20,6 +20,7 @@ import Dentist from '../Pages/Services/Dentist/Dentist';
 import DafaultPage from '../Components/DefaultPage/DafaultPage';
 import Farmacy from '../Pages/Services/Farmacy/Farmacy';
 import Restuarant from '../Pages/Services/Restuarannt/Restuarant';
+import Ambulence from '../Pages/Services/Ambulence/Ambulence';
 
   export const  router = createBrowserRouter([
     {
@@ -86,6 +87,10 @@ import Restuarant from '../Pages/Services/Restuarannt/Restuarant';
         {
           path:'/restuarent',
           element: <Restuarant></Restuarant>
+        },
+        {
+          path: '/ambulenc',
+          element: <Ambulence></Ambulence>
         }
       ]
     },
