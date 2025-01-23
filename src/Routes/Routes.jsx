@@ -21,6 +21,7 @@ import DafaultPage from '../Components/DefaultPage/DafaultPage';
 import Farmacy from '../Pages/Services/Farmacy/Farmacy';
 import Restuarant from '../Pages/Services/Restuarannt/Restuarant';
 import Ambulence from '../Pages/Services/Ambulence/Ambulence';
+import Bank from '../Pages/Services/Bank/Bank';
 
   export const  router = createBrowserRouter([
     {
@@ -91,6 +92,10 @@ import Ambulence from '../Pages/Services/Ambulence/Ambulence';
         {
           path: '/ambulenc',
           element: <Ambulence></Ambulence>
+        },
+        {
+          path: '/bank',
+          element:<Bank></Bank>
         }
       ]
     },

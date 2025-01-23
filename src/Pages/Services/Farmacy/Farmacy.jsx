@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleFarnacy from './SingleFarnacy';
+import MissingAlert from '../../../Components/MissingAlert/MissingAlert';
 
 const Farmacy = () => {
     const [farmacy, setFarmacy] = useState([]);
@@ -10,7 +11,8 @@ const Farmacy = () => {
         .then(data => setFarmacy(data))
     },[])
     return (
-        <div className='md:grid grid-cols-2 gap-5'>
+    <div>
+                <div className='md:grid grid-cols-2 gap-5'>
             {
                 farmacy.map(farm => <SingleFarnacy 
                     key={farm.id}
@@ -18,6 +20,8 @@ const Farmacy = () => {
                 ></SingleFarnacy>)
             }
         </div>
+        <MissingAlert></MissingAlert>
+    </div>
     );
 };
 
