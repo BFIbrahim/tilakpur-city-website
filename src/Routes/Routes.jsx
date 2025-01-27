@@ -23,6 +23,7 @@ import Restuarant from '../Pages/Services/Restuarannt/Restuarant';
 import Ambulence from '../Pages/Services/Ambulence/Ambulence';
 import Bank from '../Pages/Services/Bank/Bank';
 import Internet from '../Pages/Services/Internet/Internet';
+import School from '../Pages/Services/School/School';
 
   export const  router = createBrowserRouter([
     {
@@ -101,6 +102,10 @@ import Internet from '../Pages/Services/Internet/Internet';
         {
           path: '/internet',
           element:<Internet></Internet>
+        },
+        {
+          path: '/school',
+          element:<School></School>
         }
       ]
     },
