@@ -24,6 +24,7 @@ import Ambulence from '../Pages/Services/Ambulence/Ambulence';
 import Bank from '../Pages/Services/Bank/Bank';
 import Internet from '../Pages/Services/Internet/Internet';
 import School from '../Pages/Services/School/School';
+import ComputerTraning from '../Pages/Services/ComputerTraning/ComputerTraning';
 
   export const  router = createBrowserRouter([
     {
@@ -43,10 +44,10 @@ import School from '../Pages/Services/School/School';
           path:'/photos',
           element: <Pictures></Pictures>
         },
-        {
-          path:'/opinions',
-          element: <Opinion></Opinion>
-        },
+        // {
+        //   path:'/opinions',
+        //   element: <Opinion></Opinion>
+        // },
         {
           path: '/developer',
           element: <Developer></Developer>
@@ -71,10 +72,10 @@ import School from '../Pages/Services/School/School';
         //   path: '/renthouse',
         //   element: <RentHouse></RentHouse>
         // },
-        // {
-        //   path: '/courier',
-        //   element: <Courier></Courier>
-        // },
+        {
+          path: '/courier',
+          element: <Courier></Courier>
+        },
         // {
         //   path:'/shopping',
         //   element: <Shopping></Shopping>
@@ -106,6 +107,10 @@ import School from '../Pages/Services/School/School';
         {
           path: '/school',
           element:<School></School>
+        },
+        {
+          path: '/computertraning',
+          element:<ComputerTraning></ComputerTraning>
         }
       ]
     },

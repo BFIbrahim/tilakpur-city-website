@@ -38,7 +38,7 @@ const Navigation = () => {
                     <li className='font-bold text-black md:text-white'><NavLink to='/'>হোম</NavLink></li>
                         <li className='font-bold text-black md:text-white'><NavLink to='/services'>সার্ভিস সমুহ</NavLink></li>
                         <li className='font-bold text-black md:text-white'><NavLink to='/photos'>ছবি</NavLink></li>
-                        <li className='font-bold text-black md:text-white'><NavLink to="/opinions">মতামত</NavLink></li>
+                        {/* <li className='font-bold text-black md:text-white'><NavLink to="/opinions">মতামত</NavLink></li> */}
                         <li className='font-bold text-black md:text-white'><NavLink to="/developer">ডেভেলপার</NavLink></li>
                     </ul>
                 </div>
